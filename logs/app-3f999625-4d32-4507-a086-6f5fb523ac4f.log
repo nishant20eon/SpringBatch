@@ -1,0 +1,20 @@
+2025-07-02T15:17:46.323+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : Starting ProductSpringBatchProjectApplication using Java 21.0.6 with PID 21008 (D:\Workspace\STS\ProductSpringBatchProject\target\classes started by Lenovo in D:\Workspace\STS\ProductSpringBatchProject)
+2025-07-02T15:17:46.324+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-02T15:17:46.354+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-02T15:17:46.670+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-02T15:17:46.683+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2025-07-02T15:17:46.860+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-02T15:17:47.188+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b6a6038
+2025-07-02T15:17:47.192+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-02T15:17:47.634+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.BatchConfig$$SpringCGLIB$$0      : Reader Started
+2025-07-02T15:17:47.643+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.BatchConfig$$SpringCGLIB$$0      : Item Started
+2025-07-02T15:17:47.833+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-02T15:17:47.849+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : Started ProductSpringBatchProjectApplication in 1.81 seconds (process running for 2.611)
+2025-07-02T15:17:47.852+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] o.s.b.a.b.JobLauncherApplicationRunner   : Running default command line with: []
+2025-07-02T15:17:47.915+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] launched with the following parameters: [{}]
+2025-07-02T15:17:47.928+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Started
+2025-07-02T15:17:47.934+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] o.s.batch.core.job.SimpleStepHandler     : Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=10, name=jobStep, status=COMPLETED, exitStatus=COMPLETED, readCount=36, filterCount=0, writeCount=36 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=8, rollbackCount=0, exitDescription=
+2025-07-02T15:17:47.935+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Ended
+2025-07-02T15:17:47.941+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 13ms
+2025-07-02T15:17:47.947+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-02T15:17:47.953+05:30  INFO 21008 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

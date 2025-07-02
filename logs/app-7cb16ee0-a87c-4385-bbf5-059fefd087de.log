@@ -1,0 +1,20 @@
+2025-07-02T15:20:16.256+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : Starting ProductSpringBatchProjectApplication using Java 21.0.6 with PID 2160 (D:\Workspace\STS\ProductSpringBatchProject\target\classes started by Lenovo in D:\Workspace\STS\ProductSpringBatchProject)
+2025-07-02T15:20:16.257+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-02T15:20:16.288+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-02T15:20:16.605+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-02T15:20:16.619+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2025-07-02T15:20:16.799+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-02T15:20:17.076+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@552fba51
+2025-07-02T15:20:17.078+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-02T15:20:17.544+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.BatchConfig$$SpringCGLIB$$0      : Reader Started
+2025-07-02T15:20:17.551+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.BatchConfig$$SpringCGLIB$$0      : Item Started
+2025-07-02T15:20:17.745+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-02T15:20:17.762+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : Started ProductSpringBatchProjectApplication in 1.795 seconds (process running for 2.288)
+2025-07-02T15:20:17.764+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] o.s.b.a.b.JobLauncherApplicationRunner   : Running default command line with: []
+2025-07-02T15:20:17.835+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] launched with the following parameters: [{}]
+2025-07-02T15:20:17.850+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Started
+2025-07-02T15:20:17.859+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] o.s.batch.core.job.SimpleStepHandler     : Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=10, name=jobStep, status=COMPLETED, exitStatus=COMPLETED, readCount=36, filterCount=0, writeCount=36 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=8, rollbackCount=0, exitDescription=
+2025-07-02T15:20:17.861+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Ended
+2025-07-02T15:20:17.867+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 17ms
+2025-07-02T15:20:17.873+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-02T15:20:17.879+05:30  INFO 2160 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

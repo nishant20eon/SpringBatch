@@ -1,0 +1,93 @@
+2025-07-02T15:01:59.407+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : Starting ProductSpringBatchProjectApplication using Java 21.0.6 with PID 33716 (D:\Workspace\STS\ProductSpringBatchProject\target\classes started by Lenovo in D:\Workspace\STS\ProductSpringBatchProject)
+2025-07-02T15:01:59.409+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-02T15:01:59.488+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-02T15:02:00.190+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-02T15:02:00.219+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2025-07-02T15:02:00.656+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-02T15:02:01.330+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@346b5a09
+2025-07-02T15:02:01.335+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-02T15:02:01.911+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.BatchConfig$$SpringCGLIB$$0      : Reader Started
+2025-07-02T15:02:01.929+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.BatchConfig$$SpringCGLIB$$0      : Item Started
+2025-07-02T15:02:02.415+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-02T15:02:02.458+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : Started ProductSpringBatchProjectApplication in 3.741 seconds (process running for 5.035)
+2025-07-02T15:02:02.463+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] o.s.b.a.b.JobLauncherApplicationRunner   : Running default command line with: []
+2025-07-02T15:02:02.582+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] launched with the following parameters: [{}]
+2025-07-02T15:02:02.614+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Started
+2025-07-02T15:02:02.649+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] o.s.batch.core.job.SimpleStepHandler     : Executing step: [jobStep]
+2025-07-02T15:02:02.706+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 1
+2025-07-02T15:02:02.711+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 2.0 originalPrice: 400.0 discount: 8.0 finalPrice: 392.0
+2025-07-02T15:02:02.712+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 2
+2025-07-02T15:02:02.712+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 3.0 originalPrice: 500.0 discount: 15.0 finalPrice: 485.0
+2025-07-02T15:02:02.712+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 3
+2025-07-02T15:02:02.713+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 4.0 originalPrice: 600.0 discount: 24.0 finalPrice: 576.0
+2025-07-02T15:02:02.715+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 4
+2025-07-02T15:02:02.715+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 5.0 originalPrice: 700.0 discount: 35.0 finalPrice: 665.0
+2025-07-02T15:02:02.715+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 5
+2025-07-02T15:02:02.715+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 6.0 originalPrice: 800.0 discount: 48.0 finalPrice: 752.0
+2025-07-02T15:02:02.748+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 6
+2025-07-02T15:02:02.749+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 7.0 originalPrice: 900.0 discount: 63.00000000000001 finalPrice: 837.0
+2025-07-02T15:02:02.749+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 7
+2025-07-02T15:02:02.749+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 8.0 originalPrice: 1000.0 discount: 80.0 finalPrice: 920.0
+2025-07-02T15:02:02.750+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 8
+2025-07-02T15:02:02.750+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 9.0 originalPrice: 1100.0 discount: 99.0 finalPrice: 1001.0
+2025-07-02T15:02:02.750+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 9
+2025-07-02T15:02:02.751+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 10.0 originalPrice: 1200.0 discount: 120.0 finalPrice: 1080.0
+2025-07-02T15:02:02.751+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 10
+2025-07-02T15:02:02.751+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 11.0 originalPrice: 1300.0 discount: 143.0 finalPrice: 1157.0
+2025-07-02T15:02:02.773+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 11
+2025-07-02T15:02:02.773+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 12.0 originalPrice: 1400.0 discount: 168.0 finalPrice: 1232.0
+2025-07-02T15:02:02.774+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 12
+2025-07-02T15:02:02.774+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 13.0 originalPrice: 1500.0 discount: 195.0 finalPrice: 1305.0
+2025-07-02T15:02:02.774+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 13
+2025-07-02T15:02:02.775+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 14.0 originalPrice: 1600.0 discount: 224.00000000000003 finalPrice: 1376.0
+2025-07-02T15:02:02.775+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 14
+2025-07-02T15:02:02.775+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 15.0 originalPrice: 1700.0 discount: 255.0 finalPrice: 1445.0
+2025-07-02T15:02:02.776+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 15
+2025-07-02T15:02:02.776+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 16.0 originalPrice: 1800.0 discount: 288.0 finalPrice: 1512.0
+2025-07-02T15:02:02.796+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 16
+2025-07-02T15:02:02.798+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 17.0 originalPrice: 1900.0 discount: 323.0 finalPrice: 1577.0
+2025-07-02T15:02:02.798+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 17
+2025-07-02T15:02:02.799+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 18.0 originalPrice: 2000.0 discount: 360.0 finalPrice: 1640.0
+2025-07-02T15:02:02.799+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 18
+2025-07-02T15:02:02.800+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 19.0 originalPrice: 2100.0 discount: 399.0 finalPrice: 1701.0
+2025-07-02T15:02:02.800+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 19
+2025-07-02T15:02:02.800+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 20.0 originalPrice: 2200.0 discount: 440.0 finalPrice: 1760.0
+2025-07-02T15:02:02.800+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 20
+2025-07-02T15:02:02.801+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 21.0 originalPrice: 2300.0 discount: 483.0 finalPrice: 1817.0
+2025-07-02T15:02:02.821+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 21
+2025-07-02T15:02:02.822+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 22.0 originalPrice: 2400.0 discount: 528.0 finalPrice: 1872.0
+2025-07-02T15:02:02.823+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 22
+2025-07-02T15:02:02.823+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 23.0 originalPrice: 2500.0 discount: 575.0 finalPrice: 1925.0
+2025-07-02T15:02:02.823+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 23
+2025-07-02T15:02:02.823+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 24.0 originalPrice: 2600.0 discount: 624.0 finalPrice: 1976.0
+2025-07-02T15:02:02.824+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 24
+2025-07-02T15:02:02.824+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 25.0 originalPrice: 2700.0 discount: 675.0 finalPrice: 2025.0
+2025-07-02T15:02:02.824+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 25
+2025-07-02T15:02:02.826+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 26.0 originalPrice: 2800.0 discount: 728.0 finalPrice: 2072.0
+2025-07-02T15:02:02.846+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 26
+2025-07-02T15:02:02.847+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 27.0 originalPrice: 2900.0 discount: 783.0 finalPrice: 2117.0
+2025-07-02T15:02:02.847+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 27
+2025-07-02T15:02:02.848+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 28.0 originalPrice: 3000.0 discount: 840.0000000000001 finalPrice: 2160.0
+2025-07-02T15:02:02.848+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 28
+2025-07-02T15:02:02.848+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 29.0 originalPrice: 3100.0 discount: 898.9999999999999 finalPrice: 2201.0
+2025-07-02T15:02:02.848+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 29
+2025-07-02T15:02:02.848+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 30.0 originalPrice: 3200.0 discount: 960.0 finalPrice: 2240.0
+2025-07-02T15:02:02.849+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 30
+2025-07-02T15:02:02.849+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 31.0 originalPrice: 3300.0 discount: 1023.0 finalPrice: 2277.0
+2025-07-02T15:02:02.869+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 31
+2025-07-02T15:02:02.870+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 32.0 originalPrice: 3400.0 discount: 1088.0 finalPrice: 2312.0
+2025-07-02T15:02:02.870+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 32
+2025-07-02T15:02:02.870+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 33.0 originalPrice: 3500.0 discount: 1155.0 finalPrice: 2345.0
+2025-07-02T15:02:02.870+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 33
+2025-07-02T15:02:02.871+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 34.0 originalPrice: 3600.0 discount: 1224.0 finalPrice: 2376.0
+2025-07-02T15:02:02.871+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 34
+2025-07-02T15:02:02.871+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 35.0 originalPrice: 3700.0 discount: 1295.0 finalPrice: 2405.0
+2025-07-02T15:02:02.871+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 35
+2025-07-02T15:02:02.871+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 36.0 originalPrice: 3800.0 discount: 1368.0 finalPrice: 2432.0
+2025-07-02T15:02:02.891+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 36
+2025-07-02T15:02:02.892+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 36.0 originalPrice: 3800.0 discount: 1368.0 finalPrice: 2432.0
+2025-07-02T15:02:02.906+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] o.s.batch.core.step.AbstractStep         : Step: [jobStep] executed in 255ms
+2025-07-02T15:02:02.927+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Ended
+2025-07-02T15:02:02.937+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 328ms
+2025-07-02T15:02:02.948+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-02T15:02:02.961+05:30  INFO 33716 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

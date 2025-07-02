@@ -1,0 +1,30 @@
+2025-07-02T16:17:40.404+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : Starting ProductSpringBatchProjectApplication using Java 21.0.6 with PID 34080 (D:\Workspace\STS\ProductSpringBatchProject\target\classes started by Lenovo in D:\Workspace\STS\ProductSpringBatchProject)
+2025-07-02T16:17:40.406+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-02T16:17:40.437+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-02T16:17:40.438+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-02T16:17:40.854+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-02T16:17:40.868+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2025-07-02T16:17:41.167+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-02T16:17:41.177+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-02T16:17:41.177+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-02T16:17:41.213+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-02T16:17:41.213+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2025-07-02T16:17:41.295+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-02T16:17:41.546+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58a64535
+2025-07-02T16:17:41.547+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-02T16:17:41.979+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.BatchConfig$$SpringCGLIB$$0      : Reader Started
+2025-07-02T16:17:41.985+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.BatchConfig$$SpringCGLIB$$0      : Item Started
+2025-07-02T16:17:42.358+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-02T16:17:42.396+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-02T16:17:42.401+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : Started ProductSpringBatchProjectApplication in 2.3 seconds (process running for 2.805)
+2025-07-02T16:17:42.404+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] o.s.b.a.b.JobLauncherApplicationRunner   : Running default command line with: []
+2025-07-02T16:17:42.460+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] launched with the following parameters: [{}]
+2025-07-02T16:17:42.473+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Started
+2025-07-02T16:17:42.479+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] o.s.batch.core.job.SimpleStepHandler     : Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=10, name=jobStep, status=COMPLETED, exitStatus=COMPLETED, readCount=39, filterCount=0, writeCount=39 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=8, rollbackCount=0, exitDescription=
+2025-07-02T16:17:42.480+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Ended
+2025-07-02T16:17:42.485+05:30  INFO 34080 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 13ms
+2025-07-02T16:17:51.818+05:30  INFO 34080 --- [ProductSpringBatchProject] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-07-02T16:17:51.820+05:30  INFO 34080 --- [ProductSpringBatchProject] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-02T16:17:51.838+05:30  INFO 34080 --- [ProductSpringBatchProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-02T16:17:51.842+05:30  INFO 34080 --- [ProductSpringBatchProject] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-02T16:17:51.850+05:30  INFO 34080 --- [ProductSpringBatchProject] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,190 @@
+2025-07-02T15:32:01.007+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : Starting ProductSpringBatchProjectApplication using Java 21.0.6 with PID 20984 (D:\Workspace\STS\ProductSpringBatchProject\target\classes started by Lenovo in D:\Workspace\STS\ProductSpringBatchProject)
+2025-07-02T15:32:01.008+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-02T15:32:01.038+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-02T15:32:01.386+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-02T15:32:01.406+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2025-07-02T15:32:01.624+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-02T15:32:01.911+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@704b835c
+2025-07-02T15:32:01.914+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-02T15:32:02.175+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.BatchConfig$$SpringCGLIB$$0      : Reader Started
+2025-07-02T15:32:02.183+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.BatchConfig$$SpringCGLIB$$0      : Item Started
+2025-07-02T15:32:02.383+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-02T15:32:02.406+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] e.s.ProductSpringBatchProjectApplication : Started ProductSpringBatchProjectApplication in 1.724 seconds (process running for 2.332)
+2025-07-02T15:32:02.410+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.b.a.b.JobLauncherApplicationRunner   : Running default command line with: []
+2025-07-02T15:32:02.471+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] launched with the following parameters: [{}]
+2025-07-02T15:32:02.486+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Started
+2025-07-02T15:32:02.502+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.batch.core.job.SimpleStepHandler     : Executing step: [jobStep]
+2025-07-02T15:32:02.530+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 1
+2025-07-02T15:32:02.531+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 2.0 originalPrice: 400.0 discount: 8.0 finalPrice: 392.0
+2025-07-02T15:32:02.532+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 2
+2025-07-02T15:32:02.532+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 3.0 originalPrice: 500.0 discount: 15.0 finalPrice: 485.0
+2025-07-02T15:32:02.532+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 3
+2025-07-02T15:32:02.532+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 4.0 originalPrice: 600.0 discount: 24.0 finalPrice: 576.0
+2025-07-02T15:32:02.532+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 4
+2025-07-02T15:32:02.533+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 5.0 originalPrice: 700.0 discount: 35.0 finalPrice: 665.0
+2025-07-02T15:32:02.533+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 5
+2025-07-02T15:32:02.533+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 6.0 originalPrice: 800.0 discount: 48.0 finalPrice: 752.0
+2025-07-02T15:32:02.548+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 6
+2025-07-02T15:32:02.549+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 7.0 originalPrice: 900.0 discount: 63.00000000000001 finalPrice: 837.0
+2025-07-02T15:32:02.549+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 7
+2025-07-02T15:32:02.549+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 8.0 originalPrice: 1000.0 discount: 80.0 finalPrice: 920.0
+2025-07-02T15:32:02.549+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 8
+2025-07-02T15:32:02.549+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 9.0 originalPrice: 1100.0 discount: 99.0 finalPrice: 1001.0
+2025-07-02T15:32:02.549+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 9
+2025-07-02T15:32:02.549+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 10.0 originalPrice: 1200.0 discount: 120.0 finalPrice: 1080.0
+2025-07-02T15:32:02.549+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 10
+2025-07-02T15:32:02.549+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 11.0 originalPrice: 1300.0 discount: 143.0 finalPrice: 1157.0
+2025-07-02T15:32:02.559+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 11
+2025-07-02T15:32:02.560+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 12.0 originalPrice: 1400.0 discount: 168.0 finalPrice: 1232.0
+2025-07-02T15:32:02.560+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 12
+2025-07-02T15:32:02.560+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 13.0 originalPrice: 1500.0 discount: 195.0 finalPrice: 1305.0
+2025-07-02T15:32:02.560+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 13
+2025-07-02T15:32:02.560+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 14.0 originalPrice: 1600.0 discount: 224.00000000000003 finalPrice: 1376.0
+2025-07-02T15:32:02.560+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 14
+2025-07-02T15:32:02.560+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 15.0 originalPrice: 1700.0 discount: 255.0 finalPrice: 1445.0
+2025-07-02T15:32:02.560+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 15
+2025-07-02T15:32:02.561+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 16.0 originalPrice: 1800.0 discount: 288.0 finalPrice: 1512.0
+2025-07-02T15:32:02.569+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 16
+2025-07-02T15:32:02.569+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 17.0 originalPrice: 1900.0 discount: 323.0 finalPrice: 1577.0
+2025-07-02T15:32:02.569+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 17
+2025-07-02T15:32:02.570+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 18.0 originalPrice: 2000.0 discount: 360.0 finalPrice: 1640.0
+2025-07-02T15:32:02.570+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 18
+2025-07-02T15:32:02.570+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 19.0 originalPrice: 2100.0 discount: 399.0 finalPrice: 1701.0
+2025-07-02T15:32:02.570+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 19
+2025-07-02T15:32:02.570+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 20.0 originalPrice: 2200.0 discount: 440.0 finalPrice: 1760.0
+2025-07-02T15:32:02.570+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 20
+2025-07-02T15:32:02.570+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 21.0 originalPrice: 2300.0 discount: 483.0 finalPrice: 1817.0
+2025-07-02T15:32:02.580+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 21
+2025-07-02T15:32:02.581+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 22.0 originalPrice: 2400.0 discount: 528.0 finalPrice: 1872.0
+2025-07-02T15:32:02.581+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 22
+2025-07-02T15:32:02.581+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 23.0 originalPrice: 2500.0 discount: 575.0 finalPrice: 1925.0
+2025-07-02T15:32:02.581+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 23
+2025-07-02T15:32:02.581+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 24.0 originalPrice: 2600.0 discount: 624.0 finalPrice: 1976.0
+2025-07-02T15:32:02.581+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 24
+2025-07-02T15:32:02.581+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 25.0 originalPrice: 2700.0 discount: 675.0 finalPrice: 2025.0
+2025-07-02T15:32:02.582+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 25
+2025-07-02T15:32:02.582+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 26.0 originalPrice: 2800.0 discount: 728.0 finalPrice: 2072.0
+2025-07-02T15:32:02.594+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 26
+2025-07-02T15:32:02.595+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 27.0 originalPrice: 2900.0 discount: 783.0 finalPrice: 2117.0
+2025-07-02T15:32:02.595+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 27
+2025-07-02T15:32:02.595+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 28.0 originalPrice: 3000.0 discount: 840.0000000000001 finalPrice: 2160.0
+2025-07-02T15:32:02.595+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 28
+2025-07-02T15:32:02.595+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 29.0 originalPrice: 3100.0 discount: 898.9999999999999 finalPrice: 2201.0
+2025-07-02T15:32:02.596+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 29
+2025-07-02T15:32:02.596+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 30.0 originalPrice: 3200.0 discount: 960.0 finalPrice: 2240.0
+2025-07-02T15:32:02.596+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 30
+2025-07-02T15:32:02.596+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 31.0 originalPrice: 3300.0 discount: 1023.0 finalPrice: 2277.0
+2025-07-02T15:32:02.633+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 31
+2025-07-02T15:32:02.633+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 32.0 originalPrice: 3400.0 discount: 1088.0 finalPrice: 2312.0
+2025-07-02T15:32:02.633+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 32
+2025-07-02T15:32:02.634+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 33.0 originalPrice: 3500.0 discount: 1155.0 finalPrice: 2345.0
+2025-07-02T15:32:02.634+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 33
+2025-07-02T15:32:02.634+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 34.0 originalPrice: 3600.0 discount: 1224.0 finalPrice: 2376.0
+2025-07-02T15:32:02.634+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 34
+2025-07-02T15:32:02.634+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 35.0 originalPrice: 3700.0 discount: 1295.0 finalPrice: 2405.0
+2025-07-02T15:32:02.634+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 35
+2025-07-02T15:32:02.634+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 36.0 originalPrice: 3800.0 discount: 1368.0 finalPrice: 2432.0
+2025-07-02T15:32:02.643+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 36
+2025-07-02T15:32:02.643+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 36.0 originalPrice: 3800.0 discount: 1368.0 finalPrice: 2432.0
+2025-07-02T15:32:02.643+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 37
+2025-07-02T15:32:02.644+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 35.0 originalPrice: 3700.0 discount: 1295.0 finalPrice: 2405.0
+2025-07-02T15:32:02.644+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 38
+2025-07-02T15:32:02.644+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 36.0 originalPrice: 3800.0 discount: 1368.0 finalPrice: 2432.0
+2025-07-02T15:32:02.644+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 39
+2025-07-02T15:32:02.644+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 36.0 originalPrice: 3800.0 discount: 1368.0 finalPrice: 2432.0
+2025-07-02T15:32:02.651+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.batch.core.step.AbstractStep         : Step: [jobStep] executed in 149ms
+2025-07-02T15:32:02.661+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Ended
+2025-07-02T15:32:02.666+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 182ms
+2025-07-02T15:32:02.685+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] launched with the following parameters: [{'run.id':'{value=1751450522667, type=class java.lang.Long, identifying=true}'}]
+2025-07-02T15:32:02.689+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.c.JobCompletationNotificationImpl  : Job Started
+2025-07-02T15:32:02.699+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.batch.core.job.SimpleStepHandler     : Executing step: [jobStep]
+2025-07-02T15:32:02.707+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 1
+2025-07-02T15:32:02.708+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 2.0 originalPrice: 400.0 discount: 8.0 finalPrice: 392.0
+2025-07-02T15:32:02.708+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 2
+2025-07-02T15:32:02.708+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 3.0 originalPrice: 500.0 discount: 15.0 finalPrice: 485.0
+2025-07-02T15:32:02.708+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 3
+2025-07-02T15:32:02.708+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 4.0 originalPrice: 600.0 discount: 24.0 finalPrice: 576.0
+2025-07-02T15:32:02.708+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 4
+2025-07-02T15:32:02.708+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 5.0 originalPrice: 700.0 discount: 35.0 finalPrice: 665.0
+2025-07-02T15:32:02.708+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : item id: 5
+2025-07-02T15:32:02.708+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] c.e.s.config.CustomItemProcessor         : discountPer: 6.0 originalPrice: 800.0 discount: 48.0 finalPrice: 752.0
+2025-07-02T15:32:03.099+05:30 ERROR 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.batch.core.step.AbstractStep         : Encountered an error executing step jobStep in job job
+
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [insert into Products(productId,title,description,price,discount,discounted_price)values(?, ?, ?, ?, ?, ?)]; Duplicate entry '5' for key 'products.PRIMARY'
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:116) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1556) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:677) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:701) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:1049) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.batchUpdate(NamedParameterJdbcTemplate.java:377) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.batch.item.database.JdbcBatchItemWriter.write(JdbcBatchItemWriter.java:182) ~[spring-batch-infrastructure-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.writeItems(SimpleChunkProcessor.java:203) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doWrite(SimpleChunkProcessor.java:170) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.write(SimpleChunkProcessor.java:297) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:227) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:75) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:383) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:307) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:250) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:369) ~[spring-batch-infrastructure-5.2.2.jar:5.2.2]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:206) ~[spring-batch-infrastructure-5.2.2.jar:5.2.2]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:140) ~[spring-batch-infrastructure-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:235) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:230) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:153) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:408) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:127) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:307) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.batch.core.launch.support.TaskExecutorJobLauncher$1.run(TaskExecutorJobLauncher.java:155) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-6.2.8.jar:6.2.8]
+	at org.springframework.batch.core.launch.support.TaskExecutorJobLauncher.run(TaskExecutorJobLauncher.java:146) ~[spring-batch-core-5.2.2.jar:5.2.2]
+	at com.eon.springbatch.ProductSpringBatchProjectApplication.run(ProductSpringBatchProjectApplication.java:30) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.8.jar:6.2.8]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.8.jar:6.2.8]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.8.jar:6.2.8]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.5.3.jar:3.5.3]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.3.jar:3.5.3]
+	at com.eon.springbatch.ProductSpringBatchProjectApplication.main(ProductSpringBatchProjectApplication.java:22) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.3.jar:3.5.3]
+Caused by: java.sql.BatchUpdateException: Duplicate entry '5' for key 'products.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:214) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:885) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:466) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:858) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:128) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.0.jar:na]
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$getPreparedStatementCallback$7(JdbcTemplate.java:1617) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:658) ~[spring-jdbc-6.2.8.jar:6.2.8]
+	... 50 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'products.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1168) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:864) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	... 56 common frames omitted
+
+2025-07-02T15:32:03.105+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.batch.core.step.AbstractStep         : Step: [jobStep] executed in 406ms
+2025-07-02T15:32:03.120+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher      : Job: [SimpleJob: [name=job]] completed with the following parameters: [{'run.id':'{value=1751450522667, type=class java.lang.Long, identifying=true}'}] and the following status: [FAILED] in 430ms
+2025-07-02T15:32:03.128+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-02T15:32:03.134+05:30  INFO 20984 --- [ProductSpringBatchProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
